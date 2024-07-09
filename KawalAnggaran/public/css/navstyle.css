@@ -1,0 +1,63 @@
+.navbar-nav .nav-link.active {
+    color: #404386;
+    position: relative; 
+    background-color: white;
+    }
+
+.navbar-nav .nav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3px; 
+    width: 50%; 
+    border-bottom: 2px solid #404386; 
+}
+.navbar-nav {
+    width: 100%; 
+    justify-content: space-around; 
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.container{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    z-index: 10000;
+    transform: translateY(50px);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    justify-content: center;
+    transform: translateX(800px) translateY(8px);
+}
+
+.divlog{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    z-index: 10000;
+}
+
+#regNavIncome{
+    transform: translateX(-265px);
+    
+}
+
+#regNavExpend{
+    
+}
+
+#regNavFinance{
+    transform: translateX(267px);
+    
+}

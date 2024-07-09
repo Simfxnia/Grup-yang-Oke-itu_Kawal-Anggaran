@@ -1,0 +1,243 @@
+.bg {
+    background-color: #E5EBF4;
+    margin: 2% 8% 7% 8%;
+}
+
+.content {
+    padding: 3em 6em 3em 6em;
+    position: relative;
+}
+
+.centext {
+    padding: 12px;
+}
+
+.num{
+  font-family: number;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.space {
+    margin-bottom: 40px;
+}
+
+.whiterec {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 30px 20px 30px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.whiterecChart {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 30px 30px 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.whiterecTable {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 30px 30px 50px;
+  width: 100%;
+}
+
+.tableRight{
+  transform: translateX(550px);
+}
+
+.tableTKDD{
+  transform: translateX(670px);
+}
+
+.tablePL{
+  transform: translateX(250px);
+}
+
+.tableBD{
+  transform: translateX(900px);
+}
+
+.tableBBJ{
+  transform: translateX(820px);
+}
+
+.tableBM{
+  transform: translateX(930px);
+}
+
+.tableBL{
+  transform: translateX(800px);
+}
+
+.tablePPD{
+  transform: translateX(740px);
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0px 20px; /* Add gap between rows */
+  font-size: 22px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  white-space: nowrap; /* Ensure contents do not wrap to the next line */
+  overflow: hidden; /* Hide overflowed content */
+  text-overflow: ellipsis; /* Add ellipsis for overflowed content */
+}
+
+.tabrec {
+    height: 600px;
+    width: 100%;
+}
+
+.dotplace {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 48%;
+}
+
+select {
+  background-color: #404386;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  height: 42px;
+  padding: 8px;
+  font-size: 18px;
+  word-spacing: 20px;
+}
+
+.mySlide{
+    width: 100%;
+    height: 100%;
+  }
+    
+  .chartContainer {
+      display: flex;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .chartRight {
+      width: 49.9%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .chartMid {
+      width: 0.2%;
+      height: 100%;
+    }
+  
+    .lineMid {
+      width: 100%;
+      height: 70%;
+      background-color: #d9d9d9;
+      transform: translateY(45px);
+    }
+    
+    .chartLeft {
+      width: 49.9%;
+      height: 100%;
+    }
+    
+    .my-chart {
+      width: 55% !important;
+      height: 67% !important;
+      transform: translateY(-40px) translateX(-20px);
+    }
+
+    .buttonSubmit {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px; /* Increased width to make it more visible */
+      height: 42px; /* Increased height to make it more visible */
+      border: none;
+      background-color: #404386; /* Adjust background color as needed */
+      cursor: pointer;
+      transform: translateX(640px) translateY(-83px);
+      position: absolute;
+      border-radius: 10px;
+    }
+
+    .filterBtn {
+      width: 30px;
+      height: 30px;
+    }
+
+    #year{
+      transform: translateX(320px) translateY(-42px);
+    }
+
+.textChart{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transform: translateX(180px) translateY(150px);
+  }
+
+  .textChartExp{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transform: translateX(180px) translateY(120px);
+  }
+
+  .textChartFin{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    transform: translateX(180px) translateY(180px);
+  }
+
+  .chartText{
+    display: flex;
+    gap: 15px;
+    color: #292635;
+  }
+
+  .colorPAD{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #404386;
+  }
+
+  .colorTKDD{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #4385D2;
+  }
+
+  .colorPL{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #E5EBF4;
+  }
+
+  .colorBM{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ACCAED;
+  }
